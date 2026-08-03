@@ -1,0 +1,64 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# =========================
+# Generated Files
+# =========================
+uploaded_reports/*
+!uploaded_reports/.gitkeep
+
+extracted_json/*
+!extracted_json/.gitkeep
+
+extracted_text/*
+!extracted_text/.gitkeep
+
+output/*
+!output/.gitkeep
+
+# =========================
+# Datasets
+# =========================
+dataset/
+
+# =========================
+# Model files
+# =========================
+models/
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# OCR cache
+# =========================
+.paddlex/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+*.code-workspace
